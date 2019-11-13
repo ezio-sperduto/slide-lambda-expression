@@ -1,0 +1,9 @@
+
+
+class Rettangolo{int b,h;}
+...
+static void filtra(Lista<Rettangolo> l,____ f){
+	for(Rettangolo r:l)
+		if(f.verifica(r))
+			l.remove(r);
+}
