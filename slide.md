@@ -20,6 +20,10 @@
 ---
 
 ## CodeGarden?
+![](img/cgr.png)
+---
+
+## CodeGarden?
 - nasce come Java User Group (JUG Roma)
 - comunità tecnologica romana 
 - appassionati di Java ma anche altro
@@ -38,12 +42,15 @@ Non in alternativa ma insieme
 ---
 
 ## Lambda
-Object Oriented programming: ogni cosa è un'oggetto
+Object Oriented programming: 
 
-Functional programming: ogni cosa è una funzione
+> ogni cosa è un'oggetto
 
-Insieme:
-- passare facilmente funzioni
+Functional programming: 
+
+> ogni cosa è una funzione
+
+Sintesi: **manipolazione** funzioni
 
 ---
 
@@ -81,7 +88,7 @@ a -> ...
 ```
 Obbligatorie: 
 - se #params ≠ 1
-- se c'è tipo
+- se c'è qualificatore tipo
 ---
 
 ## sintassi
@@ -149,7 +156,7 @@ metodoCaller(istanza);
 ## Functional Interface
 Definizione:
 
-> una **functional interface** (anche **fi**)
+> una **functional interface** (**fi**)
 > è un'interfaccia che ha un solo metodo astratto.
 
 Ogni lambda expression è 
@@ -428,14 +435,6 @@ Costruire una funzione che prende e restituisce una stringa:
 3. senza vocali
 ---
 
-## BiFunction
-**EXERCISE!**
-
-Costruire una funzione **comp** binaria che prende due funzioni, e restituisca una funzione che rappresenti la **composizione** delle due!!!
-
-*Esempio: comp(f,g) = g(f(x))*
----
-
 ## Supplier e Consumer
 Esempi:
 ```
@@ -450,3 +449,116 @@ Consumer<Object> cons = o -> {registro.put(o.toString(),o)};
 ## fi Built-in 
 ![](img/fi.png)
 ---
+
+## Method reference
+Riferimento a metodi pre-esistenti in classi
+
+### Operatore : :
+```
+class Rettangolo{
+	...
+	int area(){...}
+}
+
+Rettangolo r=new Rettangolo();
+caller(r::area);
+```
+---
+
+## Method reference
+Riferimento a metodi pre-esistenti in classi
+
+Dichiarazione di caller:
+```
+void caller(Supplier<Integer> supp){
+	...
+	int valore = supp.get();
+	...
+}
+```
+---
+
+## Method reference
+E' possibile usare la *method reference* in 4 casi differenti:
+1. metodi statici
+2. metodi d'istanza (su un'istanza specifica)
+3. motodi d'istanza (su un'istanza a runtime)
+4. costruttori
+---
+
+## Method reference
+Metodi statici
+```
+class Rettangolo{
+	static void calcola(int a,int b){...}
+}
+
+caller(Rettangolo::calcola);
+```
+---
+
+## Method reference
+Metodi d'istanza (su un'istanza specifica)
+```
+class Rettangolo{
+	...
+	int area(){...}
+}
+
+Rettangolo r=new Rettangolo();
+caller(r::area);		// che firma?
+```
+---
+
+## Method reference
+Metodi d'istanza (su un'istanza a runtime)
+```
+class Rettangolo{
+	...
+	int area(){...}
+}
+
+caller(Rettangolo::area);  // che firma?
+```
+---
+
+## Method reference
+Costruttori
+```
+class Rettangolo{
+	...
+	Rettangolo(){...}
+	Rettangolo(int a,int b){...}
+}
+
+caller(Rettangolo::new);  // che firma?
+```
+---
+
+## Method reference
+**EXERCISE!**
+
+Metodo aggiunto a `List`:
+```
+default void forEach(Consumer action){...}
+```
+il metodo scorre e applica `action` ad ogni elemento.
+```
+List<Integer> lista = Arrays.asList(3,5,6,3,2);
+lista.forEach( ??? );
+```
+Cosa passare per stampare ogni elemento?
+---
+
+## BiFunction
+**EXERCISE!**
+
+Costruire una funzione **comp** binaria che prende due funzioni, e restituisca una funzione che rappresenti la **composizione** delle due!!!
+
+*Esempio: comp(f,g) = g(f(x))*
+---
+
+# Domande?
+
+##### grazie per l'attenzione
+
