@@ -14,7 +14,7 @@
 body {
   background-color: #fff;
   background-image: url("img/fondo_43.png");
-  /*background-repeat:   no-repeat; ----*/
+  background-repeat:   no-repeat; 
   background-size: auto 100%;
   background-position: center center;
   }
@@ -52,7 +52,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333;
-  /*font-family: "Quicksand", sans-serif;-----*/
+  font-family: "Quicksand", sans-serif;    /*commentare per stampa-----*/
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: -0.08em;

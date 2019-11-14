@@ -243,7 +243,13 @@ interface Magia{
 	int calcola(int a,int b,int c);
 }
 
-void caller(Magia m){...}
+static void caller(Magia m){
+	System.out.println("invocato caller!");
+}
+
+public static void main(String...aa){
+	caller( LAMBDA??? );
+}
 ```
 Come possiamo invocare caller?
 ---
@@ -256,7 +262,13 @@ interface Manipolatore<T>{
 	T trasforma(int x);
 }
 
-void caller(Manipolatore<String> m){...}
+static void caller(Manipolatore<String> m){
+	System.out.println("invocato caller!");
+}
+
+public static void main(String...aa){
+	caller( LAMBDA??? );
+}
 ```
 Come possiamo invocare caller?
 ---
@@ -373,7 +385,7 @@ caller(lunghezza);
 
 ## fi Built-in 
 Metodi all'interno delle **fi**
-- `Perdicate.test(...)`
+- `Predicate.test(...)`
 - `Function.apply(...)`
 - `Supplier.get()`
 - `Consumer.accept(...)`
