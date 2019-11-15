@@ -44,7 +44,7 @@ Non in alternativa ma insieme
 ## Lambda
 Object Oriented programming: 
 
-> ogni cosa è un'oggetto
+> ogni cosa è un oggetto
 
 Functional programming: 
 
