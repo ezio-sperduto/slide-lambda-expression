@@ -1,0 +1,162 @@
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Server version:        Apache Tomcat/7.0.61
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Server built:          Mar 27 2015 12:03:56 UTC
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Server number:         7.0.61.0
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: OS Name:               Mac OS X
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: OS Version:            10.10.5
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Architecture:          x86_64
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: JVM Version:           1.8.0_40-b27
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: JVM Vendor:            Oracle Corporation
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: CATALINA_BASE:         /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: CATALINA_HOME:         /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.util.logging.config.file=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/conf/logging.properties
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.endorsed.dirs=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/endorsed
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Dcatalina.base=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Dcatalina.home=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.io.tmpdir=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/temp
+dic 09, 2019 11:04:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Applications/oracle/product/instantclient_64/11.2.0.4.0/lib:/Users/Ezio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+dic 09, 2019 11:04:34 AM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 11:04:34 AM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 1346 ms
+dic 09, 2019 11:04:34 AM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+dic 09, 2019 11:04:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat/7.0.61
+dic 09, 2019 11:04:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/docs
+dic 09, 2019 11:04:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/docs has finished in 1,042 ms
+dic 09, 2019 11:04:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/examples
+dic 09, 2019 11:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/examples has finished in 1,203 ms
+dic 09, 2019 11:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/host-manager
+dic 09, 2019 11:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/host-manager has finished in 116 ms
+dic 09, 2019 11:04:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/manager
+dic 09, 2019 11:04:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/manager has finished in 813 ms
+dic 09, 2019 11:04:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/ROOT
+dic 09, 2019 11:04:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/ROOT has finished in 118 ms
+dic 09, 2019 11:04:37 AM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 11:04:37 AM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 11:04:37 AM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 3395 ms
+dic 09, 2019 11:06:17 AM org.apache.catalina.core.StandardServer await
+INFORMAZIONI: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+dic 09, 2019 11:06:17 AM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 11:06:17 AM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 11:06:17 AM org.apache.catalina.core.StandardService stopInternal
+INFORMAZIONI: Stopping service Catalina
+dic 09, 2019 11:06:17 AM org.apache.coyote.AbstractProtocol stop
+INFORMAZIONI: Stopping ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 11:06:17 AM org.apache.coyote.AbstractProtocol stop
+INFORMAZIONI: Stopping ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 11:06:17 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAZIONI: Destroying ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 11:06:17 AM org.apache.coyote.AbstractProtocol destroy
+INFORMAZIONI: Destroying ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Server version:        Apache Tomcat/7.0.61
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Server built:          Mar 27 2015 12:03:56 UTC
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Server number:         7.0.61.0
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: OS Name:               Mac OS X
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: OS Version:            10.10.5
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Architecture:          x86_64
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: JVM Version:           1.8.0_40-b27
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: JVM Vendor:            Oracle Corporation
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: CATALINA_BASE:         /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: CATALINA_HOME:         /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.util.logging.config.file=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/conf/logging.properties
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.endorsed.dirs=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/endorsed
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Dcatalina.base=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Dcatalina.home=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAZIONI: Command line argument: -Djava.io.tmpdir=/Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/temp
+dic 09, 2019 4:17:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAZIONI: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Applications/oracle/product/instantclient_64/11.2.0.4.0/lib:/Users/Ezio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+dic 09, 2019 4:17:17 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 4:17:17 PM org.apache.coyote.AbstractProtocol init
+INFORMAZIONI: Initializing ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.Catalina load
+INFORMAZIONI: Initialization processed in 1651 ms
+dic 09, 2019 4:17:17 PM org.apache.catalina.core.StandardService startInternal
+INFORMAZIONI: Starting service Catalina
+dic 09, 2019 4:17:17 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAZIONI: Starting Servlet Engine: Apache Tomcat/7.0.61
+dic 09, 2019 4:17:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/docs
+dic 09, 2019 4:17:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/docs has finished in 771 ms
+dic 09, 2019 4:17:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/examples
+dic 09, 2019 4:17:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/examples has finished in 683 ms
+dic 09, 2019 4:17:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/host-manager
+dic 09, 2019 4:17:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/host-manager has finished in 202 ms
+dic 09, 2019 4:17:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/manager
+dic 09, 2019 4:17:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/manager has finished in 288 ms
+dic 09, 2019 4:17:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deploying web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/ROOT
+dic 09, 2019 4:17:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAZIONI: Deployment of web application directory /Users/Ezio/Library/Mobile Documents/com~apple~CloudDocs/Docs/progetti/slide/slide-lambda-expression/test_tomcat/apache-tomcat-7.0.61/webapps/ROOT has finished in 252 ms
+dic 09, 2019 4:17:20 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["http-bio-8080"]
+dic 09, 2019 4:17:20 PM org.apache.coyote.AbstractProtocol start
+INFORMAZIONI: Starting ProtocolHandler ["ajp-bio-8009"]
+dic 09, 2019 4:17:20 PM org.apache.catalina.startup.Catalina start
+INFORMAZIONI: Server startup in 2439 ms
+dic 09, 2019 5:58:26 PM org.apache.coyote.AbstractProtocol pause
+INFORMAZIONI: Pausing ProtocolHandler ["http-bio-8080"]
